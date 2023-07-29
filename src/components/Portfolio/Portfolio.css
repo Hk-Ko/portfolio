@@ -1,0 +1,14 @@
+.portfolio-bg {
+  background-image: url(./images/nft.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.dashboard-bg {
+    background-image: url(./images/dashboard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
