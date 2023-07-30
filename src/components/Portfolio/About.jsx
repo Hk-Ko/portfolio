@@ -64,7 +64,7 @@ const About = () => {
             </h1>
             <div className="flex flex-wrap gap-10 items-center justify-center">
               {skills.map((skill) => (
-                <div className="">
+                <div key={skill.id} className="">
                   <div className="hidden lg:block">
                     <motion.div
                       key={skill.id}
