@@ -51,7 +51,7 @@ const ContactMe = () => {
             <Link>
               <BsTwitter className="text-3xl hover:text-warning cursor-pointer text-header" />
             </Link>
-            <Link>
+            <Link to="https://github.com/Hk-Ko/portfolio" target="_blank">
               <BsGithub className="text-3xl hover:text-warning cursor-pointer text-header" />
             </Link>
             <Link>

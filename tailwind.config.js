@@ -10,7 +10,7 @@ export default {
         warning: "#ffc86b",
         header: "#f9f9f9",
         para: "#ececec",
-        tran:"rgba(46, 42, 46, 0.45)"
+        tran:"rgba(38, 34, 36, 0.9)"
       },
       fontFamily: {
         roboto: "Roboto",

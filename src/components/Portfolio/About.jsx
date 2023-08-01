@@ -12,7 +12,7 @@ const About = () => {
 
   const [skillsRef, skillsInView] = useInView({
     triggerOnce: true,
-    threshold: 0.1,
+    threshold: 0,
   });
 
   return (
@@ -70,9 +70,9 @@ const About = () => {
                       key={skill.id}
                       className="group flex flex-col gap-5 items-center w-full lg:w-[220px] rounded-lg shadow-lg bg-primary p-10"
                       ref={skillsRef}
-                      initial={{ opacity: 0, y: 30 }} // Initial animation state (invisible and moved down 50px)
-                      animate={skillsInView ? { opacity: 1, y: 0 } : {}} // Animation when the component is in the viewport (visible and original position)
-                      transition={{ duration: 0.5, delay: skill.id * 0.1 }} // Duration and delay based on the skill id
+                      initial={{ opacity: 0, y: 30 }}
+                      animate={skillsInView ? { opacity: 1, y: 0 } : {}} 
+                      transition={{ duration: 0.5, delay: skill.id * 0.1 }}
                     >
                       <div className="">
                         <img
@@ -90,7 +90,7 @@ const About = () => {
                       key={skill.id}
                       triggerOnce={true}
                       direction="up"
-                      delay={700}
+                      delay={500}
                       cascade
                       damping={0.2}
                       className="group flex flex-col gap-5 items-center w-[220px] rounded-lg shadow-lg bg-primary p-10"
