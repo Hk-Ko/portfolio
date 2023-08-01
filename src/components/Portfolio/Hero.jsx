@@ -3,6 +3,7 @@ import profile from "./images/profile.png";
 import bg from "./images/blob.svg";
 import { Rotate } from "react-awesome-reveal";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -12,7 +13,12 @@ const Hero = () => {
     >
       <div className="w-full lg:w-[80%] h-full mx-auto">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-5 w-full h-full">
-          <div className="flex flex-col gap-2 items-start w-full lg:w-[50%]">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 3 }}
+            className="flex flex-col gap-2 items-start w-full lg:w-[50%]"
+          >
             <h1 className="text-2xl text-header font-semibold tracking-wide">
               I'M{" "}
               <span className="text-5xl text-warning font-semibold">
@@ -38,8 +44,13 @@ const Hero = () => {
                 Contact Me
               </button>
             </Link>
-          </div>
-          <div className="w-full lg:w-[50%] group flex items-end justify-center relative h-[400px] lg:h-full">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 2 }}
+            className="w-full lg:w-[50%] group flex items-end justify-center relative h-[400px] lg:h-full"
+          >
             <img
               src={bg}
               alt=""
@@ -50,7 +61,7 @@ const Hero = () => {
               alt=""
               className="absolute group-hover:translate-x-4 duration-500"
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

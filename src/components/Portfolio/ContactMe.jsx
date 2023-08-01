@@ -16,7 +16,7 @@ const ContactMe = () => {
             <div className="w-full lg:w-[45%]">
               <div className="flex items-center  gap-5 bg-primary px-6 py-4 rounded-lg">
                 <AiOutlineMail className="text-header text-xl lg:text-3xl" />
-                <p className="text-lg lg:text-xl tracking-wider text-warning">
+                <p className="text-md lg:text-xl tracking-wider text-warning">
                   htunkko.mgk@gmail.com
                 </p>
               </div>
@@ -24,7 +24,7 @@ const ContactMe = () => {
             <div className="w-full lg:w-[45%]">
               <div className="flex items-center gap-5 bg-primary px-6 py-4 rounded-lg">
                 <AiOutlinePhone className="text-header text-xl lg:text-3xl" />
-                <p className="text-lg lg:text-xl tracking-wider text-warning">
+                <p className="text-md lg:text-xl tracking-wider text-warning">
                   (+95) 9950959891
                 </p>
               </div>
@@ -36,7 +36,7 @@ const ContactMe = () => {
               >
                 <div className="flex items-center gap-5 bg-primary px-6 py-4 rounded-lg">
                   <FaLocationDot className="text-header text-xl lg:text-3xl" />
-                  <p className="text-lg lg:text-xl tracking-wider text-warning">
+                  <p className="text-md lg:text-xl tracking-wider text-warning">
                     Mogok, Myanmar
                   </p>
                 </div>

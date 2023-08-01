@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 const About = () => {
   const [aboutRef, aboutInView] = useInView({
     triggerOnce: true,
-    threshold: 0.2,
+    threshold: 0.1,
   });
 
   const [skillsRef, skillsInView] = useInView({

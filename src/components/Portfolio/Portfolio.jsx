@@ -90,13 +90,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="h-[300px] w-[550px] bg-header overflow-hidden">
-              <div className="group  h-full w-full ">
-                <div className="flex justify-center items-center h-full w-full -translate-x-[600px] group-hover:translate-x-0 duration-500 bg-tran">
-                  <h1>black</h1>
-                </div>
-              </div>
-            </div>
+          
           </div>
         </motion.div>
       </div>
