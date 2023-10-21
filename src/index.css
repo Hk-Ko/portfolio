@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-active {
+  color: #e95c2cff;
+  font-weight: 700;
+}
+
+.nav {
+  border-bottom: 2px solid #fff;
+}
+.contact-icon {
+  border: 1px solid #e95c2cff;
+  border-radius: 100%;
+  background-color: transparent;
+  color: #e95c2cff;
+}
+
+body {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: "Inter Tight", sans-serif;
+  letter-spacing: 0.03em;
+  /* background-color: rgb(15,23,42);
+    color: #C5D1ED; */
+
+  /* theme1 */
+  /* background-color: #E7EEED; */
+  background: #050505;
+  color: white;
+  /* background: #00000048; */
+
+  /* theme2 */
+  /* background-color: #FCF6F5;
+    color: #000; */
+
+  /* theme 3 */
+  /* background-color: #FADF00;
+    color: black; */
+}
+
+h1 {
+  /* color: #1544C0; */
+  /* color: #990011; */
+  color: #e95c2cff;
+}
+
+h3 {
+  /* border-bottom: 2px solid #e95c2cff; */
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: #e95c2cff;
+  width: fit-content;
+  margin-bottom: 0px;
+}
+.h {
+  color: #e95c2cff;
+  font-weight: 600;
+}
+.heading {
+  font-size: xx-large;
+  font-weight: 900;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  /* margin-bottom: 2.5rem; */
+}
+label {
+  @apply text-sm font-semibold;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e95c2cff;
+}
