@@ -34,7 +34,7 @@ export default function About() {
             in modern frontend frameworks such as React and have experience
             collaborating with designers and backend developers to bring
             projects to life. What sets me apart is my ability to combine my
-            creativity and problem-solving skills from MMS-it with my technical
+            creativity and problem-solving skills with my technical
             expertise. I strive to build websites that not only look great but
             also align with business goals and user needs. Outside of coding, I
             enjoy travelling,cooking and gaming. These interests fuel my
@@ -52,7 +52,7 @@ export default function About() {
           <AiOutlineDownload className="text-lg" />
           <a
             className=" cv"
-            href="../../public/chan_myae_aung_frontend_dev.pdf"
+            href="../../public/htun_ko_ko.pdf"
             download={true}
             target="_blank"
           >
